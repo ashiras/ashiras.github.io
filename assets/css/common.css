@@ -27,10 +27,49 @@
 }
 
 /*content setting*/
-body{
+body,body *{
   font-family:Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+  font-size: 13px;
+  line-height: 150%;
 }
 a,a:hover{
   transition: all ease 0.3s;
   text-decoration: none;
+}
+
+nav{
+  position: fixed;
+  top: 0; right: 30px;
+  text-align: right;
+}
+nav li{
+  position: relative;
+  margin-bottom: 20px;
+}
+nav li a{
+  font-family: 'mont_light';
+  font-size: 20px;
+  color: #2A95E4;
+}
+nav li.bold a{
+  font-family: 'mont_bold';
+}
+nav li:first-child{
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 30px;
+  background: #2A95E4;
+  border-bottom-left-radius: 50%;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
+}
+nav li:first-child img{
+  width: 40px;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }

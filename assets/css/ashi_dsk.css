@@ -32,3 +32,59 @@
   font-size: 22px;
   font-family: 'mont_regular';
 }
+
+/*about*/
+#about{
+  padding: 100px 0 150px;
+  text-align: center;
+}
+#about h1{
+  font-family: 'mont_thin';
+  font-size: 70px;
+}
+#about .subtitle{
+  margin: 20px auto;
+  letter-spacing: 0.5em;
+  color: #2A95E4;
+}
+#about .subtitle:after{
+  content: "";
+  display: block;
+  width: 50px;
+  height: 1px;
+  margin: 20px auto 50px;
+  background: #000;
+}
+#about p{
+  width: 500px;
+  margin: 0 auto;
+}
+#about img{
+  display: block;
+  width: 130px;
+  height: 130px;
+  margin: 50px auto;
+  background: #eee;
+  border-radius: 50%;
+  overflow: hidden;
+}
+#about section{
+}
+#about section ul{
+  text-align: left;
+  display: inline-block;
+  width: 260px;
+}
+#about section ul:first-child{
+  margin-right: 50px;
+}
+#about section ul li{
+  margin-bottom: 25px;
+}
+#about section ul li b{
+  display: block;
+  margin-bottom: 5px;
+}
+#about section ul li span{
+  color: #7d7d7d;
+}
