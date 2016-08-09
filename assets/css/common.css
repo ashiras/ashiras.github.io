@@ -50,9 +50,14 @@ nav li a{
   font-family: 'mont_light';
   font-size: 20px;
   color: #2A95E4;
+  opacity: 1;
 }
 nav li.bold a{
   font-family: 'mont_bold';
+}
+nav li a:hover,
+nav li.bold a:hover{
+  opacity: 0.5;
 }
 nav li:first-child{
   display: block;
