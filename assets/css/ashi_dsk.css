@@ -116,12 +116,13 @@ p{
 }
 
 /*contact*/
-#contact form:last-child input{
-  height: 100px;
+#contact textarea#message{
+  height: 150px;
 }
 .mdl-textfield{
+  display: block;
   width: 500px;
-  font-family: 'mont_bold';
+  margin: 0 auto;
 }
 .mdl-textfield__label:after{
   background: #2A95E4;
@@ -131,4 +132,32 @@ p{
 .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label {
   font-family: 'mont_bold';
   color: #2A95E4;
+}
+.mdl-textfield__error{
+  left: 0;
+}
+#contact input.submit{
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  position: relative;
+  top: 0px;
+  width: 200px;
+  height: 50px;
+  margin-top: 30px;
+  border-radius: 5px;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.25);
+  transition: all ease 0.3s;
+  background: #2A95E4;
+  font-family: 'mont_light';
+  letter-spacing: 0.1em;
+  color: #fff;
+}
+#contact input.submit:hover{
+  top: -1px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
+  transition: all ease 0.3s;
 }
