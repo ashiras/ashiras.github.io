@@ -7,6 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ashiras, inc. - CONTACT</title>
 
+    <!-- Material Design Lite -->
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.indigo-pink.min.css">
+    <!-- Material Design icon font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- original -->
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/common.css">
     <link rel="stylesheet" href="assets/css/ashi_dsk.css" media="screen and (min-width:960px)">
@@ -18,16 +24,42 @@
       <ul>
         <li><a href="index.html"><img src="assets/img/logo.svg" alt="home" /></a></li>
         <li><a href="about.html">ABOUT US</a></li>
-        <li class="bold"><a href="business.html">BUSINESS</a></li>
-        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="business.html">BUSINESS</a></li>
+        <li class="bold"><a href="contact.html">CONTACT</a></li>
       </ul>
     </nav>
     <article id="contact">
       <h1>CONTACT</h1>
       <div class="subtitle">お問い合わせ</div>
-      <p>
-        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-      </p>
-    </article> <!-- business -->
+
+      <form action="#">
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label textfield-demo">
+          <input class="mdl-textfield__input" type="text" id="name" />
+          <label class="mdl-textfield__label" for="sample3">NAME</label>
+        </div>
+      </form>
+
+      <form action="#">
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label textfield-demo">
+          <input class="mdl-textfield__input" type="text" id="company" />
+          <label class="mdl-textfield__label" for="sample3">COMPANY</label>
+        </div>
+      </form>
+
+      <form action="#">
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label textfield-demo">
+          <input class="mdl-textfield__input" type="email" id="email" />
+          <label class="mdl-textfield__label" for="sample3">E-MAIL</label>
+        </div>
+      </form>
+
+      <form action="#">
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label textfield-demo">
+          <input class="mdl-textfield__input" type="textarea" id="message" />
+          <label class="mdl-textfield__label" for="sample3">MESSAGE</label>
+        </div>
+      </form>
+
+  </article> <!-- contact -->
   </body>
 </html>

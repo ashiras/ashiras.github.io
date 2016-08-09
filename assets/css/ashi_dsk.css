@@ -114,3 +114,21 @@ p{
 #business section img:last-child{
   margin-right: 0;
 }
+
+/*contact*/
+#contact form:last-child input{
+  height: 100px;
+}
+.mdl-textfield{
+  width: 500px;
+  font-family: 'mont_bold';
+}
+.mdl-textfield__label:after{
+  background: #2A95E4;
+}
+.mdl-textfield--floating-label.is-focused .mdl-textfield__label,
+.mdl-textfield--floating-label.is-dirty .mdl-textfield__label,
+.mdl-textfield--floating-label.has-placeholder .mdl-textfield__label {
+  font-family: 'mont_bold';
+  color: #2A95E4;
+}
