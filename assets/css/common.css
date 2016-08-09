@@ -26,56 +26,102 @@
     url('../fonts/Montserrat-Bold.ttf') format('ttf');
 }
 
+/* Boxsizing */
+* {
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body, div, span,
+h1, h2, h3, p,
+a, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100%;
+  vertical-align: baseline;
+  line-height: 1;
+  /*background: transparent;*/
+}
+
 /*content setting*/
-body,body *{
-  font-family:Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+body, body * {
   font-size: 13px;
   line-height: 150%;
 }
-a,a:hover{
+a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+a, a:hover{
   transition: all ease 0.3s;
   text-decoration: none;
 }
 
-nav{
+ol, ul{
+  list-style: none;
+}
+
+nav {
   position: fixed;
-  top: 0; right: 30px;
+  top: 0;
+  right: 0px;
   text-align: right;
 }
-nav li{
+nav li {
   position: relative;
   margin-bottom: 20px;
+  margin-right: 5px;
 }
-nav li a{
+nav li a {
   font-family: 'mont_light';
   font-size: 20px;
   color: #2A95E4;
   opacity: 1;
 }
-nav li.bold a{
+nav li.bold a {
   font-family: 'mont_bold';
 }
 nav li a:hover,
-nav li.bold a:hover{
+nav li.bold a:hover {
   opacity: 0.5;
 }
-nav li:first-child{
+nav .logo {
   display: block;
   width: 100px;
   height: 100px;
-  margin-bottom: 30px;
+  margin: 0px -3px 30px 15px;
   background: #2A95E4;
   border-bottom-left-radius: 50%;
   box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
 }
-nav li:first-child img{
+nav li:first-child img {
   width: 40px;
   height: auto;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
-  right: 0;
+  right: -3px;
   margin: auto;
 }
 
@@ -102,16 +148,68 @@ nav li:first-child img{
   width: 100px;
   height: auto;
 }
-#home a{
+#home a {
   display: block;
   height: 36px;
   margin-top: 55px;
   border-bottom: 1px solid #fff;
   color: #fff;
-  font-size: 22px;
+  font-size: 1.2rem;
   font-family: 'mont_regular';
   opacity: 1;
 }
 #home a:hover{
   opacity: 0.5;
+}
+#business {
+  background-color: #eee;
+}
+h1 {
+  margin-bottom: 50px;
+  font-family: 'mont_thin';
+  font-size: 5rem;
+}
+
+h2 {
+  margin-bottom: 100px;
+  font-family: 'mont_thin';
+  font-size: 5rem;
+}
+
+h3 {
+  font-size: 1.7rem;
+  margin: 70px 0 50px 0;
+}
+
+p {
+  text-align: left;
+  width: 500px;
+  margin: 0 auto;
+  line-height:2rem;
+  font-size: 1.1rem;
+}
+
+section {
+  font-size: 0;
+  margin: 50px auto 50px;
+}
+
+/*common*/
+article {
+  padding: 150px 0 150px;
+  text-align: center;
+}
+
+.subtitle {
+  margin: 20px auto;
+  letter-spacing: 0.5em;
+  color: #2A95E4;
+}
+.subtitle:after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 1px;
+  margin: 20px auto 50px;
+  background: #000;
 }
