@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/*fonts setting*/
+@font-face {
+  font-family: 'mont_thin';
+  src:url('../fonts/Montserrat-Thin.woff2') format('woff2'),
+    url('../fonts/Montserrat-Thin.woff') format('woff'),
+    url('../fonts/Montserrat-Thin.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'mont_light';
+  src: url('../fonts/Montserrat-Light.woff2') format('woff2'),
+    url('../fonts/Montserrat-Light.woff') format('woff'),
+    url('../fonts/Montserrat-Light.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'mont_regular';
+  src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+    url('../fonts/Montserrat-Regular.woff') format('woff'),
+    url('../fonts/Montserrat-Regular.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'mont_bold';
+  src: url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+    url('../fonts/Montserrat-Bold.woff') format('woff'),
+    url('../fonts/Montserrat-Bold.ttf') format('ttf');
+}
+
+/*content setting*/
+body{
+  font-family:Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+}
+a,a:hover{
+  transition: all ease 0.3s;
+  text-decoration: none;
+}
