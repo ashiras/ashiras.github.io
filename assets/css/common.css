@@ -125,8 +125,7 @@ nav li:first-child img {
   margin: auto;
 }
 
-/*home*/
-#home{
+#home {
   width: 100vw;
   height: 100vh;
   background-image: url('../img/main.jpg');
@@ -135,7 +134,7 @@ nav li:first-child img {
   background-position: center;
   position: relative;
 }
-#home section{
+#home section {
   width: 146px;
   height: 186px;
   text-align: center;
@@ -144,7 +143,7 @@ nav li:first-child img {
   left: 0; right: 0;
   margin: auto;
 }
-#home h1 img{
+#home h1 img {
   width: 100px;
   height: auto;
 }
@@ -158,29 +157,34 @@ nav li:first-child img {
   font-family: 'mont_regular';
   opacity: 1;
 }
-#home a:hover{
+#home a:hover {
   opacity: 0.5;
 }
 #business {
   background-color: #eee;
 }
+
 h1 {
   margin-bottom: 50px;
   font-family: 'mont_thin';
   font-size: 5rem;
 }
-
 h2 {
   margin-bottom: 100px;
   font-family: 'mont_thin';
   font-size: 5rem;
 }
-
+@media screen and (max-width:500px) {
+  h2 {
+    margin-bottom: 50px;
+    font-family: 'mont_thin';
+    font-size: 3rem;
+  }
+}
 h3 {
   font-size: 1.7rem;
   margin: 70px 0 50px 0;
 }
-
 p {
   text-align: left;
   width: 500px;
@@ -188,28 +192,31 @@ p {
   line-height:2rem;
   font-size: 1.1rem;
 }
+@media screen and (max-width:500px) {
+  p {
+    margin: 0 5px 0 5px;
+    width: 100%;
+  }
+} 
 
 section {
   font-size: 0;
   margin: 50px auto 50px;
 }
 
-/*common*/
 article {
   padding: 150px 0 150px;
   text-align: center;
 }
 
-.subtitle {
-  margin: 20px auto;
-  letter-spacing: 0.5em;
-  color: #2A95E4;
+@media screen and (max-width:500px) {
+  article {
+    padding: 100px 0 100px;
+  }
+  .menu {
+    visibility:hidden;
+    display:none;
+  }
 }
-.subtitle:after {
-  content: "";
-  display: block;
-  width: 50px;
-  height: 1px;
-  margin: 20px auto 50px;
-  background: #000;
-}
+
+
