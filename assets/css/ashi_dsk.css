@@ -1,42 +1,5 @@
 @charset "UTF-8";
 
-/*home*/
-#home{
-  width: 100vw;
-  height: 100vh;
-  background-image: url('../img/main.jpeg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
-#home section{
-  width: 146px;
-  height: 186px;
-  text-align: center;
-  position: absolute;
-  top: 0; bottom: 0;
-  left: 0; right: 0;
-  margin: auto;
-}
-#home h1 img{
-  width: 100px;
-  height: auto;
-}
-#home a{
-  display: block;
-  height: 36px;
-  margin-top: 55px;
-  border-bottom: 1px solid #fff;
-  color: #fff;
-  font-size: 22px;
-  font-family: 'mont_regular';
-  opacity: 1;
-}
-#home a:hover{
-  opacity: 0.5;
-}
-
 /*common*/
 #about,
 #business,
