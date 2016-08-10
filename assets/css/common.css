@@ -84,7 +84,7 @@ ol, ul{
 nav {
   position: fixed;
   top: 0;
-  right: 0px;
+  right: 30px;
   text-align: right;
 }
 nav li {
@@ -197,7 +197,7 @@ p {
     margin: 0 5px 0 5px;
     width: 100%;
   }
-} 
+}
 
 section {
   font-size: 0;
@@ -218,5 +218,3 @@ article {
     display:none;
   }
 }
-
-
