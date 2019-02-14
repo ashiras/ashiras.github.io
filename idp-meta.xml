@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="enter_qa" entityID="https://fqidrive-enter-qa.jp-east-2.cf-app.net/saml/metadata"><md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"><md:KeyDescriptor use="signing"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIICvzCCAaegAwIBAgIEb5oaHjANBgkqhkiG9w0BAQsFADAQMQ4wDAYDVQQDEwVF
+TlRFUjAeFw0xOTAxMDgxMDM3MzZaFw0zODAzMDkxMDM3MzZaMBAxDjAMBgNVBAMT
+BUVOVEVSMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt2y9o1Yvmw8n
+62vJbbutdyPoNF03cHjgZfWiymG+jONUiBMP9o+oFFk7xVmlx+4ko7o5XbxDQm/1
+xIhVZBCaoanwflrNbOQqBMCfekYBHd6q9D75DRy1IMfBQK/Fy/JEk2JueGeIQuLG
+g5RT2wqhjABJt86/fOwuX0/T3f7WTrpt/oyqdMREzEXzYkmmVWisGHin5tPXewfP
+d4VRckvPzT9PYw+/n2xn6N86ccNBP7MFFe4LIAX+jrFENqNec3xMaNuW31+Whk4b
+GghUsg9/kp6t0zxnQE+xewzhnxvgRLBxmC6BMEs5s0c7vZdauR15Auja08Itc5Ai
+fBVx6RgioQIDAQABoyEwHzAdBgNVHQ4EFgQUk620dmo5OJw0Hm61s3wRJYB8K48w
+DQYJKoZIhvcNAQELBQADggEBABBPWBVmap7hjc2y6dPoFhOocB4W9ToGm2pQp/tb
+M1c9fNHuWjVaK1OzNHUwVZ6tQbE3zCpDyCuJ9IAPfvDmAt1oXTJO6IW44BsQq8AW
+It2UwNUWNOH15DZFI041WqdWswa6dHe/iAi/7SksjZFZG7pk6yDFd8dRUDLHNe+6
+mL/ebUr3nOtiYHEjq1S4bK2b6cLRsvnFiJniGXTiKC/tteh1IbnIssJCsEuvD6PQ
+3avPPuXU9BLfFcVhqQsg/jdtFgZPxYuhhVzDqbPoYwgQmHTM1gw7y7yfNcUlGi3p
+ZCvKVz09a3LMBPyXSBJ8G4q3IxxcAmBTbd6YdsfCjQDljJI=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:KeyDescriptor use="encryption"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIICvzCCAaegAwIBAgIEb5oaHjANBgkqhkiG9w0BAQsFADAQMQ4wDAYDVQQDEwVF
+TlRFUjAeFw0xOTAxMDgxMDM3MzZaFw0zODAzMDkxMDM3MzZaMBAxDjAMBgNVBAMT
+BUVOVEVSMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt2y9o1Yvmw8n
+62vJbbutdyPoNF03cHjgZfWiymG+jONUiBMP9o+oFFk7xVmlx+4ko7o5XbxDQm/1
+xIhVZBCaoanwflrNbOQqBMCfekYBHd6q9D75DRy1IMfBQK/Fy/JEk2JueGeIQuLG
+g5RT2wqhjABJt86/fOwuX0/T3f7WTrpt/oyqdMREzEXzYkmmVWisGHin5tPXewfP
+d4VRckvPzT9PYw+/n2xn6N86ccNBP7MFFe4LIAX+jrFENqNec3xMaNuW31+Whk4b
+GghUsg9/kp6t0zxnQE+xewzhnxvgRLBxmC6BMEs5s0c7vZdauR15Auja08Itc5Ai
+fBVx6RgioQIDAQABoyEwHzAdBgNVHQ4EFgQUk620dmo5OJw0Hm61s3wRJYB8K48w
+DQYJKoZIhvcNAQELBQADggEBABBPWBVmap7hjc2y6dPoFhOocB4W9ToGm2pQp/tb
+M1c9fNHuWjVaK1OzNHUwVZ6tQbE3zCpDyCuJ9IAPfvDmAt1oXTJO6IW44BsQq8AW
+It2UwNUWNOH15DZFI041WqdWswa6dHe/iAi/7SksjZFZG7pk6yDFd8dRUDLHNe+6
+mL/ebUr3nOtiYHEjq1S4bK2b6cLRsvnFiJniGXTiKC/tteh1IbnIssJCsEuvD6PQ
+3avPPuXU9BLfFcVhqQsg/jdtFgZPxYuhhVzDqbPoYwgQmHTM1gw7y7yfNcUlGi3p
+ZCvKVz09a3LMBPyXSBJ8G4q3IxxcAmBTbd6YdsfCjQDljJI=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://fqidrive-enter-qa.jp-east-2.cf-app.net/saml/SingleLogout"/><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://fqidrive-enter-qa.jp-east-2.cf-app.net/saml/SingleLogout"/><md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat><md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat><md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat><md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat><md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:X509SubjectName</md:NameIDFormat><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://fqidrive-enter-qa.jp-east-2.cf-app.net/saml/SSO" index="0" isDefault="true"/><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://fqidrive-enter-qa.jp-east-2.cf-app.net/saml/SSO" index="1"/></md:SPSSODescriptor></md:EntityDescriptor>
